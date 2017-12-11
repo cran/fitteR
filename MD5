@@ -1,0 +1,16 @@
+f5880510a8efa51b952f0f6076719d55 *DESCRIPTION
+788e863f3421f35002b028a80cfac686 *NAMESPACE
+b9539c47261f706627634afea168bffe *R/ecdf2.R
+e5d4acfaa7798cbbbd53eb32ce080374 *R/fitter.R
+de52b94077bc2cf3daeec66eea61585b *R/gof.R
+9857ef7739a3a2332099fdb3a88dc88b *R/printReport.R
+7e9ebb7c174438bd462ec0fda26bebdd *R/pvalue2stars.R
+6dd55688a8c46bb3db5206aed9cf73f7 *R/supportedPackages.R
+420a9f52355cc657246814224bc65781 *R/sysdata.rda
+5d6eec32f00ab78eab6f56f1501217e2 *R/zzz.R
+e033e6a52a49dccbd828541cbd518b94 *inst/CITATION
+aca7f3e9842a3ad2ef0e407ac552693f *man/ecdf2.Rd
+e0029c67ac056011192c69217b9490f8 *man/fitter.Rd
+b88217fb07bbaee212f0d904f883f97a *man/printReport.Rd
+c9606cbef7827c74e1548d0803214426 *man/pvalue2stars.Rd
+caa1cf73a65aa849597219df9bbe303b *man/supported.packages.Rd
