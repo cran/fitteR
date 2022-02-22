@@ -60,7 +60,8 @@
 	if( method == "ks" ){
 		#print(str(c(list(x=x, y=cdf), param)))
 		a <- try(do.call("ks.test", c(list(x=x, y=cdf), param)))
-		if(!class(a)=="htest"){a <- NULL}
+		#if(!class(a)=="htest"){a <- NULL}
+		if(!inherits(a, what=c("htest", "ks.test"))){a <- NULL}
 		return(a)
 	}
 

@@ -4,8 +4,15 @@
 \alias{fitter}
 \title{Fit distributions to empirical data}
 \usage{
-fitter(X, dom = "discrete", freq = NULL, R = 100, timeout = 5,
-  posList = NULL, fast = TRUE)
+fitter(
+  X,
+  dom = "discrete",
+  freq = NULL,
+  R = 100,
+  timeout = 5,
+  posList = NULL,
+  fast = TRUE
+)
 }
 \arguments{
 \item{X}{A numeric vector}

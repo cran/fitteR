@@ -1,8 +1,8 @@
 Package: fitteR
 Type: Package
 Title: Fit Hundreds of Theoretical Distributions to Empirical Data
-Version: 0.1.0
-Date: 2017-12-11
+Version: 0.2.0
+Date: 2022-02-22
 Author: Markus Boenn
 Maintainer: Markus Boenn <markus.boenn.sf@gmail.com>
 Description: Systematic fit of hundreds of theoretical univariate distributions to empirical data via maximum likelihood estimation. Fits are reported and summarized by a data.frame, a csv file or a 'shiny' app (here with additional features like visual representation of fits). All output formats provide assessment of goodness-of-fit by the following methods: Kolmogorov-Smirnov test, Shapiro-Wilks test, Anderson-Darling test.
@@ -14,13 +14,13 @@ Suggests: actuar, ald, benchden, BiasedUrn, bridgedist, Davies,
         emdbook, emg, EnvStats, evd, evir, ExtDist, extremefit, FAdist,
         FatTailsR, fBasics, fExtremes, flexsurv, gambin, gb,
         GenBinomApps, GeneralizedHyperbolic, gld, GLDEX, glogis, GSM,
-        hermite, HyperbolicDist, ihs, KScorrect, loglognorm, marg,
-        mc2d, minimax, msm, nCDunnett, NormalLaplace, normalp,
+        hermite, HyperbolicDist, KScorrect, loglognorm, marg, mc2d,
+        minimax, msm, nCDunnett, NormalLaplace, normalp,
         ParetoPosStable, PearsonDS, poistweedie, polyaAeppli, qmap,
         QRM, ReIns, reliaR, Renext, revdbayes, RMKdiscrete, RMTstat,
         sadists, skellam, SkewHyperbolic, skewt, SMR, sn, stabledist,
         STAR, statmod, trapezoid, triangle, truncnorm, VarianceGamma
 NeedsCompilation: no
-Packaged: 2017-12-11 08:26:09 UTC; mb61pezy
+Packaged: 2022-02-22 11:28:42 UTC; boenn
 Repository: CRAN
-Date/Publication: 2017-12-11 14:27:45 UTC
+Date/Publication: 2022-02-22 12:00:02 UTC

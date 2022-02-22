@@ -3,7 +3,6 @@
 \name{pvalue2stars}
 \alias{pvalue2stars}
 \alias{pvalues2stars}
-\alias{pvalues2stars}
 \title{Significance stars}
 \usage{
 pvalue2stars(x, ns = "")

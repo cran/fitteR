@@ -142,7 +142,8 @@ fitter <- function(X, dom="discrete", freq=NULL, R=100, timeout=5, posList=NULL,
 			for( g in 1:G ){
 				m <- gofMethods[g]
 				tmp <- .gof( x, dst, fit[1:nargs], package=Package, R=M, method=m, cdf=foo )
-				if(!is.null(tmp) && class(tmp)=="htest"){
+				#if(!is.null(tmp) && class(tmp)=="htest"){
+				if(!is.null(tmp) && inherits(tmp, what=c("htest"))){
 					gof[f, c(m, p.gofMethods[g]) ] <- c(tmp[["statistic"]], tmp[["p.value"]])
 				}
 			}
